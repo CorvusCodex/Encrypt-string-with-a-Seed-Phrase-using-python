@@ -23,7 +23,7 @@ def encrypt_word(word, seed_phrase):
     return encrypted_word
 
 word = "secret"
-seed_phrase = "phraset"
+seed_phrase = "apple quality pie pen crowd welcome album tornado prize angle sword crumble"
 encrypted_word = encrypt_word(word, seed_phrase)
 
 print("Encrypted word:", encrypted_word)
